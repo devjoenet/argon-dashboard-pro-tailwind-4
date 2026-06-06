@@ -1,0 +1,962 @@
+<!--
+=========================================================
+* Argon Dashboard 2 Pro Tailwind - v1.0.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard-pro-tailwind
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="../../../assets/img/favicon.png" />
+    <title>Argon Dashboard 2 Pro Tailwind by Creative Tim</title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Nucleo Icons -->
+    <link href="../../../assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../../../assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <!-- Main Styling -->
+    <link href="../../../assets/css/argon-dashboard-tailwind.css?v=1.0.0" rel="stylesheet" />
+  </head>
+
+  <body class="m-0 font-sans text-base antialiased font-normal text-left leading-default dark:bg-slate-900 bg-gray-50 text-slate-500 dark:text-white/80">
+    <!-- sidenav -->
+
+    <nav class="absolute top-0 z-30 flex flex-wrap items-center justify-between w-full px-4 py-2 mt-6 mb-4 shadow-none lg:flex-nowrap lg:justify-start">
+
+      <div class="container flex flex-wrap items-center justify-between lg:flex-nowrap">
+        
+        <a class="py-2.5 text-sm mr-4 ml-4 whitespace-nowrap font-bold text-white lg:ml-0" href="../../../pages/dashboards/default.html">Argon Dashboard 2 Pro</a>
+        
+        <button aria-expanded="false" nav-collapse-trigger class="px-3 py-1 ml-2 text-lg leading-none bg-transparent rounded-lg shadow-none cursor-pointer lg:hidden text-slate-700">
+          <span class="inline-block w-6 h-6 mt-2 align-middle bg-none">
+            <span bar1 class="block relative w-5.5 h-px rounded-px bg-white transition-all duration-200 mx-auto my-0 origin-10-10"></span>
+            <span bar2 class="block relative w-5.5 h-px rounded-px bg-white transition-all duration-200 mx-auto my-0 mt-1.75"></span>
+            <span bar3 class="block relative w-5.5 h-px rounded-px bg-white transition-all duration-200 mx-auto my-0 mt-1.75 origin-10-90"></span>
+          </span>
+        </button>
+
+        <div class="items-center w-full pt-4 pb-2 transition-all ease-in-out duration-350 lg-max:max-h-0 lg-max:overflow-auto lg-max:hidden lg-max:bg-white lg-max:shadow-3xl md-max:relative grow basis-full rounded-2xl lg:flex lg:basis-auto lg:py-0">
+
+          <ul class="flex flex-col pl-0 mx-auto mb-0 list-none md-max:w-full lg:flex-row">
+
+            <li class="relative mx-2 group md-max:static lg:after:content-[''] lg:after:top-0 lg:hover:after:top-full lg:after:absolute lg:after:left-0 lg:after:-bottom-6 lg:after:w-full lg:after:h-full">
+              
+              <a aria-expanded="false" nav-dropdown-trigger="pages" role="button" class="flex items-center justify-between px-4 py-2 pl-2 text-sm font-normal text-white transition-all ease-in-out cursor-pointer select-none lg:group-hover:opacity-75 lg-max:text-slate-700 lg:px-2">
+                Pages
+                <img src="../../../assets/img/down-arrow-white.svg" alt="down-arrow" class="hidden ml-1 lg:block">
+                <img src="../../../assets/img/down-arrow-dark.svg" alt="down-arrow" class="block ml-1 lg:hidden">
+              </a>
+
+
+              <div nav-dropdown="pages" class="sm-max:right-auto md-max:left-0 md-max:right-0 lg-max:bg-transparent lg-max:overflow-scroll lg-max:relative lg-max:shadow-none lg-max:transform-none lg-max:block lg-max:h-0 lg-max:transition-all lg-max:duration-350 lg-max:ease lg-max:pt-0 lg-max:pb-0 lg-max:opacity-0 lg-max:top-0 lg-max:origin-top lg-max:pointer-events-none  static p-4 m-0 mt-0 text-left list-none bg-white rounded-2xl lg:mt-4 lg:min-w-160 lg:absolute z-100 text-sm text-slate-500 bg-clip-padding lg:shadow-3xl lg:cursor-pointer lg:transition-all lg:duration-250 lg:block lg:group-focus:pointer-events-auto lg:group-focus:transform-dropdown-show lg:group-focus:opacity-100 lg:group-focus:before:-top-5 lg:group-hover:opacity-100 lg:opacity-0 lg:top-0 lg:origin-top lg:group-hover:pointer-events-auto lg:group-hover:transform-dropdown-show lg:pointer-events-none lg:transform-dropdown lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:group-hover:before:-top-4.8  lg:before:left-7 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease">
+                <div class="flex-wrap hidden -mx-3 lg:flex">
+                  <div class="w-full max-w-full px-6 py-2 flex-0">
+                    <div class="flex flex-wrap -mx-3">
+                      <div class="relative w-4/12 max-w-full px-3 flex-0">
+                        <div class="flex items-center px-0 py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-spaceship"></i>
+                          Dashboards
+                        </div>
+                        <a href="../../../pages/dashboards/default.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Default</span>
+                        </a>
+                        <a href="../../../pages/dashboards/automotive.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Automotive</span>
+                        </a>
+                        <a href="../../../pages/dashboards/smart-home.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Smart Home</span>
+                        </a>
+                        <a href="../../../pages/dashboards/vr/vr-default.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Virtual Reality</span>
+                        </a>
+                        <a href="../../../pages/dashboards/crm.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">CRM</span>
+                        </a>
+                        <div class="flex items-center px-0 py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-circle-08"></i>
+                          Users
+                        </div>
+                        <a href="../../../pages/pages/users/reports.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Reports</span>
+                        </a>
+                        <a href="../../../pages/pages/users/new-user.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">New User</span>
+                        </a>
+                        <hr class="absolute top-0 right-0 w-px h-full bg-transparent bg-gradient-to-b from-transparent via-black/40 to-transparent">
+                      </div>
+                      <div class="relative w-4/12 max-w-full px-3 flex-0">
+                        <div class="flex items-center px-0 py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-badge"></i>
+                          Profile
+                        </div>
+                        <a href="../../../pages/pages/profile/overview.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Overview</span>
+                        </a>
+                        <a href="../../../pages/pages/profile/teams.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Teams</span>
+                        </a>
+                        <a href="../../../pages/pages/profile/projects.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Projects</span>
+                        </a>
+                        <div class="flex items-center px-0 py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-app"></i>
+                          Projects
+                        </div>
+                        <a href="../../../pages/pages/projects/general.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">General</span>
+                        </a>
+                        <a href="../../../pages/pages/projects/timeline.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Timeline</span>
+                        </a>
+                        <a href="../../../pages/pages/projects/new-project.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">New Project</span>
+                        </a>
+                        <hr class="absolute top-0 right-0 w-px h-full bg-transparent bg-gradient-to-b from-transparent via-black/40 to-transparent">
+                      </div>
+                      <div class="w-4/12 max-w-full px-3 flex-0">
+                        <div class="flex items-center px-0 py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-single-02"></i>
+                          Account
+                        </div>
+                        <a href="../../../pages/pages/account/settings.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Settings</span>
+                        </a>
+                        <a href="../../../pages/pages/account/billing.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Billing</span>
+                        </a>
+                        <a href="../../../pages/pages/account/invoice.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Invoice</span>
+                        </a>
+                        <a href="../../../pages/pages/account/security.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Security</span>
+                        </a>
+                        <div class="flex items-center px-0 py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-folder-17"></i>
+                          Extra
+                        </div>
+                        <a href="../../../pages/pages/pricing-page.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Pricing Page</span>
+                        </a>
+                        <a href="../../../pages/pages/chat.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Messages</span>
+                        </a>
+                        <a href="../../../pages/pages/rtl-page.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">RTL Page</span>
+                        </a>
+                        <a href="../../../pages/pages/widgets.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Widgets</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="lg:hidden">
+                  <div class="flex items-center py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-spaceship"></i>
+                    Dashboards
+                  </div>
+                  <a href="../../../pages/dashboards/default.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Default
+                  </a>
+                  <a href="../../../pages/dashboards/automotive.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Automotive
+                  </a>
+                  <a href="../../../pages/dashboards/smart-home.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Smart Home
+                  </a>
+                  <a href="../../../pages/dashboards/vr/vr-default.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Virtual Reality
+                  </a>
+                  <a href="../../../pages/dashboards/crm.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    CRM
+                  </a>
+                  <div class="flex items-center py-2 mt-4 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-circle-08"></i>
+                    Users
+                  </div>
+                  <a href="../../../pages/pages/users/reports.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Reports
+                  </a>
+                  <a href="../../../pages/pages/users/new-user.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    New user
+                  </a>
+                  <div class="flex items-center py-2 mt-4 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-badge"></i>
+                    Profile
+                  </div>
+                  <a href="../../../pages/pages/profile/overview.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Overview
+                  </a>
+                  <a href="../../../pages/pages/profile/teams.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Teams
+                  </a>
+                  <a href="../../../pages/pages/profile/projects.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Projects
+                  </a>
+                  <div class="flex items-center py-2 mt-4 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-app"></i>
+                    Projects
+                  </div>
+                  <a href="../../../pages/pages/projects/general.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    General
+                  </a>
+                  <a href="../../../pages/pages/projects/timeline.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Timeline
+                  </a>
+                  <a href="../../../pages/pages/projects/new-project.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    New Project
+                  </a>
+                  <div class="flex items-center py-2 mt-4 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-single-02"></i>
+                    Account
+                  </div>
+                  <a href="../../../pages/pages/account/settings.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Settings
+                  </a>
+                  <a href="../../../pages/pages/account/billing.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Billing
+                  </a>
+                  <a href="../../../pages/pages/account/invoice.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Invoice
+                  </a>
+                  <a href="../../../pages/pages/account/security.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Security
+                  </a>
+                  <div class="flex items-center py-2 mt-4 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-folder-17"></i>
+                    Extra
+                  </div>
+                  <a href="../../../pages/pages/pricing-page.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Pricing Page
+                  </a>
+                  <a href="../../../pages/pages/chat.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Messages
+                  </a>
+                  <a href="../../../pages/pages/rtl-page.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    RTL Page
+                  </a>
+                  <a href="../../../pages/pages/widgets.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Widgets
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="relative mx-2 md-max:static group lg:after:content-[''] lg:after:top-0 lg:hover:after:top-full lg:after:absolute lg:after:left-0 lg:after:-bottom-6 lg:after:w-full lg:after:h-full">
+              
+              <a aria-expanded="false" nav-dropdown-trigger="authentication" role="button" class="flex items-center justify-between px-4 py-2 pl-2 text-sm font-normal text-white transition-all ease-in-out cursor-pointer select-none lg:group-hover:opacity-75 lg-max:text-slate-700 lg:px-2">
+                Authentication
+                <img src="../../../assets/img/down-arrow-white.svg" alt="down-arrow" class="hidden ml-1 lg:block">
+                <img src="../../../assets/img/down-arrow-dark.svg" alt="down-arrow" class="block ml-1 lg:hidden">
+              </a>
+
+
+              <div nav-dropdown="authentication" class=" lg:group-hover:pointer-events-auto lg:group-hover:transform-dropdown-show lg:group-hover:opacity-100 lg:group-hover:before:-top-4.8  sm-max:right-auto md-max:left-0 md-max:right-0 lg-max:bg-transparent lg-max:overflow-scroll lg-max:relative lg-max:shadow-none lg-max:transform-none lg-max:block lg-max:h-0 lg-max:transition-all lg-max:duration-350 lg-max:ease lg-max:pt-0 lg-max:pb-0 lg-max:opacity-0 lg-max:top-0 lg-max:origin-top lg-max:pointer-events-none static p-4 m-0 mt-0 text-left list-none bg-white rounded-2xl lg:mt-4 lg:min-w-92 lg:absolute z-100 text-sm text-slate-500 bg-clip-padding lg:shadow-3xl lg:cursor-pointer lg:transition-all lg:duration-250 lg:block lg:opacity-0 lg:top-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-7 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease">
+                <div class="flex-wrap hidden -mx-3 lg:flex">
+                  <div class="w-6/12 max-w-full px-3 flex-0">
+                    <div class="flex relative w-full h-full py-16 rounded-xl bg-cover bg-[url('../../../assets/img/curved-images/curved8.jpg')]">
+                      <div class="absolute top-0 left-0 w-full h-full bg-center bg-cover opacity-80 rounded-xl bg-gradient-to-tl from-blue-500 to-violet-500"></div>
+                      <div class="flex flex-col items-center justify-center w-full font-semibold text-center text-white z-1">
+                        <div class="inline-block w-12 h-12 text-center text-black bg-white bg-center shadow-2xl fill-current stroke-none rounded-circle ">
+                          <i class="ni leading-none ni-diamond bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text text-transparent opacity-80 relative z-1 text-lg top-3.5 "></i>
+                        </div>
+                        <span class="mt-2 text-lg">
+                          Explore our
+                          <br>
+                          utilities pages
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col justify-center w-6/12 max-w-full px-3 pl-0 flex-0">
+                    <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                      <li nav-nested-menu-trigger class="after:absolute after:content-[''] after:h-full after:left-full after:w-1/2 after:bottom-0 relative block p-0 bg-white border-0 rounded-t-lg">
+                        <a class="select-none hover:text-slate-700 hover:bg-gray-200 flex w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit bg-transparent border-0 justify-between items-center mb-1 pl-4 rounded-lg lg:transition-colors lg:duration-300 lg:ease">
+                          <span>Sign In</span>
+                          <img src="../../../assets/img/down-arrow.svg" alt="down-arrow" class="lg:-rotate-90">
+                        </a>
+                        <div nav-nested-menu class="z-100 hidden min-w-44 px-2 py-4 m-0 text-sm text-left list-none bg-white bg-clip-padding rounded-lg mt-0 static lg:cursor-pointer lg:shadow-3xl lg:transition-all lg:duration-250 lg:absolute lg:block lg:opacity-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown-nested -right-50 left-auto top-0 lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-0 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease lg:before:-z-1 lg:before:-rotate-90">
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/signin/basic.html">
+                            <span>Basic</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/signin/cover.html">
+                            <span>Cover</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/signin/illustration.html">
+                            <span>Illustration</span>
+                          </a>
+                        </div>
+                      </li>
+                      <li nav-nested-menu-trigger class="after:absolute after:content-[''] after:h-full after:left-full after:w-1/2 after:bottom-0 relative block p-0 bg-white border-0 ">
+                        <a class="select-none hover:text-slate-700 hover:bg-gray-200 flex w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit bg-transparent border-0 justify-between items-center mb-1 pl-4 rounded-lg lg:transition-colors lg:duration-300 lg:ease">
+                          <span>Sign Up</span>
+                          <img src="../../../assets/img/down-arrow.svg" alt="down-arrow" class="lg:-rotate-90">
+                        </a>
+                        <div nav-nested-menu class="z-100 hidden min-w-44 px-2 py-4 m-0 text-sm text-left list-none bg-white bg-clip-padding rounded-lg mt-0 static lg:cursor-pointer lg:shadow-3xl lg:transition-all lg:duration-250 lg:absolute lg:block lg:opacity-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown-nested -right-50 left-auto top-0 lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-0 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease lg:before:-z-1 lg:before:-rotate-90">
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/signup/basic.html">
+                            <span>Basic</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/signup/cover.html">
+                            <span>Cover</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/signup/illustration.html">
+                            <span>Illustration</span>
+                          </a>
+                        </div>
+                      </li>
+                      <li nav-nested-menu-trigger class="after:absolute after:content-[''] after:h-full after:left-full after:w-1/2 after:bottom-0 relative block p-0 bg-white border-0 ">
+                        <a class="select-none hover:text-slate-700 hover:bg-gray-200 flex w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit bg-transparent border-0 justify-between items-center mb-1 pl-4 rounded-lg lg:transition-colors lg:duration-300 lg:ease">
+                          <span>Reset Password</span>
+                          <img src="../../../assets/img/down-arrow.svg" alt="down-arrow" class="lg:-rotate-90">
+                        </a>
+                        <div nav-nested-menu class="z-100 hidden min-w-44 px-2 py-4 m-0 text-sm text-left list-none bg-white bg-clip-padding rounded-lg mt-0 static lg:cursor-pointer lg:shadow-3xl lg:transition-all lg:duration-250 lg:absolute lg:block lg:opacity-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown-nested -right-50 left-auto top-0 lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-0 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease lg:before:-z-1 lg:before:-rotate-90">
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/reset/basic.html">
+                            <span>Basic</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/reset/cover.html">
+                            <span>Cover</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/reset/illustration.html">
+                            <span>Illustration</span>
+                          </a>
+                        </div>
+                      </li>
+                      <li nav-nested-menu-trigger class="after:absolute after:content-[''] after:h-full after:left-full after:w-1/2 after:bottom-0 relative block p-0 bg-white border-0 ">
+                        <a class="select-none hover:text-slate-700 hover:bg-gray-200 flex w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit bg-transparent border-0 justify-between items-center mb-1 pl-4 rounded-lg lg:transition-colors lg:duration-300 lg:ease">
+                          <span>Lock</span>
+                          <img src="../../../assets/img/down-arrow.svg" alt="down-arrow" class="lg:-rotate-90">
+                        </a>
+                        <div nav-nested-menu class="z-100 hidden min-w-44 px-2 py-4 m-0 text-sm text-left list-none bg-white bg-clip-padding rounded-lg mt-0 static lg:cursor-pointer lg:shadow-3xl lg:transition-all lg:duration-250 lg:absolute lg:block lg:opacity-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown-nested -right-50 left-auto top-0 lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-0 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease lg:before:-z-1 lg:before:-rotate-90">
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/lock/basic.html">
+                            <span>Basic</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/lock/cover.html">
+                            <span>Cover</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/lock/illustration.html">
+                            <span>Illustration</span>
+                          </a>
+                        </div>
+                      </li>
+                      <li nav-nested-menu-trigger class="after:absolute after:content-[''] after:h-full after:left-full after:w-1/2 after:bottom-0 relative block p-0 bg-white border-0 ">
+                        <a class="select-none hover:text-slate-700 hover:bg-gray-200 flex w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit bg-transparent border-0 justify-between items-center mb-1 pl-4 rounded-lg lg:transition-colors lg:duration-300 lg:ease">
+                          <span>2-Step Verification</span>
+                          <img src="../../../assets/img/down-arrow.svg" alt="down-arrow" class="lg:-rotate-90">
+                        </a>
+                        <div nav-nested-menu class="z-100 hidden min-w-44 px-2 py-4 m-0 text-sm text-left list-none bg-white bg-clip-padding rounded-lg mt-0 static lg:cursor-pointer lg:shadow-3xl lg:transition-all lg:duration-250 lg:absolute lg:block lg:opacity-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown-nested -right-50 left-auto top-0 lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-0 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease lg:before:-z-1 lg:before:-rotate-90">
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/verification/basic.html">
+                            <span>Basic</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/verification/cover.html">
+                            <span>Cover</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/verification/illustration.html">
+                            <span>Illustration</span>
+                          </a>
+                        </div>
+                      </li>
+                      <li nav-nested-menu-trigger class="after:absolute after:content-[''] after:h-full after:left-full after:w-1/2 after:bottom-0 relative block p-0 bg-white border-0 rounded-b-lg">
+                        <a class="select-none hover:text-slate-700 hover:bg-gray-200 flex w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit bg-transparent border-0 justify-between items-center mb-1 pl-4 rounded-lg lg:transition-colors lg:duration-300 lg:ease">
+                          <span>Error</span>
+                          <img src="../../../assets/img/down-arrow.svg" alt="down-arrow" class="lg:-rotate-90">
+                        </a>
+                        <div nav-nested-menu class="z-100 hidden min-w-44 px-2 py-4 m-0 text-sm text-left list-none bg-white bg-clip-padding rounded-lg mt-0 static lg:cursor-pointer lg:shadow-3xl lg:transition-all lg:duration-250 lg:absolute lg:block lg:opacity-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown-nested -right-50 left-auto top-0 lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-0 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease lg:before:-z-1 lg:before:-rotate-90">
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/error/404.html">
+                            <span>404</span>
+                          </a>
+                          <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg mb-1" href="../../../pages/authentication/error/500.html">
+                            <span>500</span>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="flex flex-wrap -mx-3 lg:hidden">
+                  <div class="flex flex-col justify-center w-full max-w-full px-3 flex-0">
+                    <h6 class="flex px-0 py-2 mb-0 text-sm font-bold text-slate-700 whitespace-nowrap">Sign In</h6>
+                    <a href="../../../pages/authentication/signin/basic.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Basic
+                    </a>
+                    <a href="../../../pages/authentication/signin/cover.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Cover
+                    </a>
+                    <a href="../../../pages/authentication/signin/illustration.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Illustration
+                    </a>
+                    <h6 class="flex px-0 py-2 mt-4 mb-0 text-sm font-bold text-slate-700 whitespace-nowrap">
+                      Sign Up
+                    </h6>
+                    <a href="../../../pages/authentication/signup/basic.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Basic
+                    </a>
+                    <a href="../../../pages/authentication/signup/cover.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Cover
+                    </a>
+                    <a href="../../../pages/authentication/signup/illustration.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Illustration
+                    </a>
+                    <h6 class="flex px-0 py-2 mt-4 mb-0 text-sm font-bold text-slate-700 whitespace-nowrap">
+                      Reset Password
+                    </h6>
+                    <a href="../../../pages/authentication/reset/basic.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Basic
+                    </a>
+                    <a href="../../../pages/authentication/reset/cover.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Cover
+                    </a>
+                    <a href="../../../pages/authentication/reset/illustration.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Illustation
+                    </a>
+                    <h6 class="flex px-0 py-2 mt-4 mb-0 text-sm font-bold text-slate-700 whitespace-nowrap">
+                      Lock
+                    </h6>
+                    <a href="../../../pages/authentication/lock/basic.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Basic
+                    </a>
+                    <a href="../../../pages/authentication/lock/cover.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Cover
+                    </a>
+                    <a href="../../../pages/authentication/lock/illustration.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Illustration
+                    </a>
+                    <h6 class="flex px-0 py-2 mt-4 mb-0 text-sm font-bold text-slate-700 whitespace-nowrap">
+                      2-Step Verification
+                    </h6>
+                    <a href="../../../pages/authentication/verification/basic.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Basic
+                    </a>
+                    <a href="../../../pages/authentication/verification/cover.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Cover
+                    </a>
+                    <a href="../../../pages/authentication/verification/illustration.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      Illustration
+                    </a>
+                    <h6 class="flex px-0 py-2 mt-4 mb-0 text-sm font-bold text-slate-700 whitespace-nowrap">
+                      Error
+                    </h6>
+                    <a href="../../../pages/authentication/error/404.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      404
+                    </a>
+                    <a href="../../../pages/authentication/error/500.html" class="block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                      500
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="relative mx-2 md-max:static group lg:after:content-[''] lg:after:top-0 lg:hover:after:top-full lg:after:absolute lg:after:left-0 lg:after:-bottom-6 lg:after:w-full lg:after:h-full">
+              
+              <a aria-expanded="false" nav-dropdown-trigger="applications" role="button" class="flex items-center justify-between px-4 py-2 pl-2 text-sm font-normal text-white transition-all ease-in-out cursor-pointer select-none lg:group-hover:opacity-75 lg-max:text-slate-700 lg:px-2">
+                Applications
+                <img src="../../../assets/img/down-arrow-white.svg" alt="down-arrow" class="hidden ml-1 lg:block">
+                <img src="../../../assets/img/down-arrow-dark.svg" alt="down-arrow" class="block ml-1 lg:hidden">
+              </a>
+
+
+              <div nav-dropdown="applications" class=" lg:group-hover:pointer-events-auto lg:group-hover:transform-dropdown-show lg:group-hover:opacity-100 lg:group-hover:before:-top-4.8  sm-max:right-auto md-max:left-0 md-max:right-0 lg-max:bg-transparent lg-max:overflow-scroll lg-max:relative lg-max:shadow-none lg-max:transform-none lg-max:block lg-max:h-0 lg-max:transition-all lg-max:duration-350 lg-max:ease lg-max:pt-0 lg-max:pb-0 lg-max:opacity-0 lg-max:top-0 lg-max:origin-top lg-max:pointer-events-none static p-4 m-0 mt-0 text-left list-none bg-white rounded-xl lg:mt-4 lg:min-w-60 lg:absolute z-100 text-sm text-slate-500 bg-clip-padding lg:shadow-3xl lg:cursor-pointer lg:transition-all lg:duration-250 lg:block lg:opacity-0 lg:top-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-7 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease">
+                <div class="hidden lg:flex">
+                  <ul class="flex flex-col w-full pl-0 mb-0 list-none">
+                    <li class="relative block p-0 bg-white border-0 rounded-t-lg">
+                      <a class="block clear-both w-full px-4 py-2 font-normal bg-transparent border-0 rounded-lg text-slate-500 hover:text-slate-700 hover:bg-gray-200 text-align-inherit whitespace-nowrap lg:transition-colors lg:duration-300 lg:ease" href="../../../pages/applications/kanban.html">
+                        <div class="flex">
+                          <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                            <i class="relative leading-none text-transparent ni ni-single-copy-04 bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text z-1"></i>
+                          </div>
+                          <div class="flex items-center justify-between w-full">
+                            <div>
+                              <p class="block p-0 mb-0 text-sm whitespace-nowrap text-slate-700">Kanban</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="relative block p-0 bg-white border-0">
+                      <a class="block clear-both w-full px-4 py-2 font-normal bg-transparent border-0 rounded-lg text-slate-500 hover:text-slate-700 hover:bg-gray-200 text-align-inherit whitespace-nowrap lg:transition-colors lg:duration-300 lg:ease" href="../../../pages/applications/wizard.html">
+                        <div class="flex">
+                          <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                            <i class="relative leading-none text-transparent ni ni-laptop bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text z-1"></i>
+                          </div>
+                          <div class="flex items-center justify-between w-full">
+                            <div>
+                              <p class="block p-0 mb-0 text-sm whitespace-nowrap text-slate-700">Wizard</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="relative block p-0 bg-white border-0">
+                      <a class="block clear-both w-full px-4 py-2 font-normal bg-transparent border-0 rounded-lg text-slate-500 hover:text-slate-700 hover:bg-gray-200 text-align-inherit whitespace-nowrap lg:transition-colors lg:duration-300 lg:ease" href="../../../pages/applications/datatables.html">
+                        <div class="flex">
+                          <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                            <i class="relative leading-none text-transparent ni ni-badge bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text z-1"></i>
+                          </div>
+                          <div class="flex items-center justify-between w-full">
+                            <div>
+                              <p class="block p-0 mb-0 text-sm whitespace-nowrap text-slate-700">DataTables</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="relative block p-0 bg-white border-0 rounded-b-lg">
+                      <a class="block clear-both w-full px-4 py-2 font-normal bg-transparent border-0 rounded-lg text-slate-500 hover:text-slate-700 hover:bg-gray-200 text-align-inherit whitespace-nowrap lg:transition-colors lg:duration-300 lg:ease" href="../../../pages/applications/calendar.html">
+                        <div class="flex">
+                          <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                            <i class="relative leading-none text-transparent ni ni-notification-70 bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text z-1"></i>
+                          </div>
+                          <div class="flex items-center justify-between w-full">
+                            <div>
+                              <p class="block p-0 mb-0 text-sm whitespace-nowrap text-slate-700">Calendar</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="flex flex-wrap -mx-3 lg:hidden">
+                  <div class="w-full max-w-full px-3 md:w-full md:flex-0 shrink-0">
+                    <a class="py-2 pl-4 rounded-lg" href="../../../pages/applications/kanban.html">
+                      <div class="flex">
+                        <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                          <i class="relative leading-none text-transparent ni ni-single-copy-04 bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text z-1"></i>
+                        </div>
+                        <div class="flex items-center justify-between w-full">
+                          <div>
+                            <p class="block p-0 mb-0 text-sm whitespace-nowrap text-slate-700">Kanban</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="py-2 pl-4 rounded-lg" href="../../../pages/applications/wizard.html">
+                      <div class="flex">
+                        <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                          <i class="relative leading-none text-transparent ni ni-laptop bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text z-1"></i>
+                        </div>
+                        <div class="flex items-center justify-between w-full">
+                          <div>
+                            <p class="block p-0 mb-0 text-sm whitespace-nowrap text-slate-700">Wizard</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="py-2 pl-4 rounded-lg" href="../../../pages/applications/datatables.html">
+                      <div class="flex">
+                        <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                          <i class="relative leading-none text-transparent ni ni-badge bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text z-1"></i>
+                        </div>
+                        <div class="flex items-center justify-between w-full">
+                          <div>
+                            <p class="block p-0 mb-0 text-sm whitespace-nowrap text-slate-700">DataTables</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="py-2 pl-4 rounded-lg" href="../../../pages/applications/calendar.html">
+                      <div class="flex">
+                        <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                          <i class="relative leading-none text-transparent ni ni-notification-70 bg-gradient-to-tl from-blue-500 to-violet-500 bg-clip-text z-1"></i>
+                        </div>
+                        <div class="flex items-center justify-between w-full">
+                          <div>
+                            <p class="block p-0 mb-0 text-sm whitespace-nowrap text-slate-700">Calendar</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <li class="relative mx-2 md-max:static group lg:after:content-[''] lg:after:top-0 lg:hover:after:top-full lg:after:absolute lg:after:left-0 lg:after:-bottom-6 lg:after:w-full lg:after:h-full">
+              
+              <a aria-expanded="false" nav-dropdown-trigger="ecommerce" role="button" class="flex items-center justify-between px-4 py-2 pl-2 text-sm font-normal text-white transition-all ease-in-out cursor-pointer select-none lg:group-hover:opacity-75 lg-max:text-slate-700 lg:px-2">
+                Ecommerce
+                <img src="../../../assets/img/down-arrow-white.svg" alt="down-arrow" class="hidden ml-1 lg:block">
+                <img src="../../../assets/img/down-arrow-dark.svg" alt="down-arrow" class="block ml-1 lg:hidden">
+              </a>
+
+
+              <div nav-dropdown="ecommerce" class=" lg:group-hover:pointer-events-auto lg:group-hover:transform-dropdown-show lg:group-hover:opacity-100 lg:group-hover:before:-top-4.8  sm-max:right-auto md-max:left-0 md-max:right-0 lg-max:bg-transparent lg-max:overflow-scroll lg-max:relative lg-max:shadow-none lg-max:transform-none lg-max:block lg-max:h-0 lg-max:transition-all lg-max:duration-350 lg-max:ease lg-max:pt-0 lg-max:pb-0 lg-max:opacity-0 lg-max:top-0 lg-max:origin-top lg-max:pointer-events-none static p-4 m-0 mt-0 text-left list-none bg-white rounded-2xl lg:mt-4 lg:min-w-92 lg:absolute z-100 text-sm text-slate-500 bg-clip-padding lg:shadow-3xl lg:cursor-pointer lg:transition-all lg:duration-250 lg:block lg:opacity-0 lg:top-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-7 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease">
+                
+                <div class="flex-wrap hidden -mx-3 lg:flex">
+                  <div class="w-full max-w-full px-6 py-2 flex-0">
+                    <div class="flex flex-wrap -mx-3">
+                      <div class="relative w-6/12 max-w-full px-3 flex-0">
+                        <div class="flex items-center px-0 py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-cart"></i>
+                          Orders
+                        </div>
+                        <a href="../../../pages/ecommerce/orders/list.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Order List</span>
+                        </a>
+                        <a href="../../../pages/ecommerce/orders/details.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Order Details</span>
+                        </a>
+                        <div class="flex items-center px-0 py-2 mt-4 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-box-2"></i>
+                          General
+                        </div>
+                        <a href="../../../pages/ecommerce/overview.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Overview</span>
+                        </a>
+                        <a href="../../../pages/ecommerce/referral.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Referral</span>
+                        </a>
+                        <hr class="absolute top-0 right-0 w-px h-full bg-transparent bg-gradient-to-b from-transparent via-black/40 to-transparent">
+                      </div>
+                      <div class="relative w-6/12 max-w-full px-3 flex-0">
+                        <div class="flex items-center px-0 py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700 ">
+                          <i class="mr-4 text-blue-500 ni ni-planet"></i>
+                          Products
+                        </div>
+                        <a href="../../../pages/ecommerce/products/new-product.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">New Product</span>
+                        </a>
+                        <a href="../../../pages/ecommerce/products/edit-product.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Edit Product</span>
+                        </a>
+                        <a href="../../../pages/ecommerce/products/product-page.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Product Page</span>
+                        </a>
+                        <a href="../../../pages/ecommerce/products/products-list.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg">
+                          <span class="pl-4">Products List</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="lg:hidden">
+                  <div class="flex items-center py-2 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-cart"></i>
+                    Orders
+                  </div>
+                  <a href="../../../pages/ecommerce/orders/list.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Order List
+                  </a>
+                  <a href="../../../pages/ecommerce/orders/details.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Order Details
+                  </a>
+                  <div class="flex items-center py-2 mt-4 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-box-2"></i>
+                    General
+                  </div>
+                  <a href="../../../pages/ecommerce/overview.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Overview
+                  </a>
+                  <a href="../../../pages/ecommerce/referral.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Referral
+                  </a>
+                  <div class="flex items-center py-2 mt-4 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">
+                    <i class="mr-4 text-blue-500 ni ni-planet"></i>
+                    Products
+                  </div>
+                  <a href="../../../pages/ecommerce/products/new-product.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    New Product
+                  </a>
+                  <a href="../../../pages/ecommerce/products/edit-product.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Edit Product
+                  </a>
+                  <a href="../../../pages/ecommerce/products/product-page.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Product Page
+                  </a>
+                  <a href="../../../pages/ecommerce/products/products-list.html" class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 rounded-lg">
+                    Products List
+                  </a>
+                </div>
+              </div>
+            </li>
+
+
+
+
+            <li class="relative mx-2 md-max:static group lg:after:content-[''] lg:after:top-0 lg:hover:after:top-full lg:after:absolute lg:after:left-0 lg:after:-bottom-6 lg:after:w-full lg:after:h-full">
+              
+              <a aria-expanded="false" nav-dropdown-trigger="docs" role="button" class="flex items-center justify-between px-4 py-2 pl-2 text-sm font-normal text-white transition-all ease-in-out cursor-pointer select-none lg:group-hover:opacity-75 lg-max:text-slate-700 lg:px-2">
+                Docs
+                <img src="../../../assets/img/down-arrow-white.svg" alt="down-arrow" class="hidden ml-1 lg:block">
+                <img src="../../../assets/img/down-arrow-dark.svg" alt="down-arrow" class="block ml-1 lg:hidden">
+              </a>
+
+
+              <div nav-dropdown="docs" class=" lg:group-hover:pointer-events-auto lg:group-hover:transform-dropdown-show lg:group-hover:opacity-100 lg:group-hover:before:-top-4.8  sm-max:right-auto md-max:left-0 md-max:right-0 lg-max:bg-transparent lg-max:overflow-scroll lg-max:relative lg-max:shadow-none lg-max:transform-none lg-max:block lg-max:h-0 lg-max:transition-all lg-max:duration-350 lg-max:ease lg-max:pt-0 lg-max:pb-0 lg-max:opacity-0 lg-max:top-0 lg-max:origin-top lg-max:pointer-events-none static p-4 m-0 mt-0 text-left list-none bg-white rounded-2xl lg:mt-4 lg:min-w-92 lg:absolute z-100 text-sm text-slate-500 bg-clip-padding lg:shadow-3xl lg:cursor-pointer lg:transition-all lg:duration-250 lg:block lg:opacity-0 lg:top-0 lg:origin-top lg:pointer-events-none lg:transform-dropdown lg:before:font-awesome lg:before:content-['\f0d8'] lg:before:absolute lg:before:top-0 lg:before:left-7 lg:before:right-auto lg:before:text-5.5 lg:before:text-white lg:before:transition-all lg:before:duration-350 lg:before:ease">
+                <div class="hidden lg:block">
+                  <ul class="flex flex-col pl-0 mx-auto mb-0 list-none">
+                    <li class="relative block p-0 bg-white border-0 rounded-t-lg">
+                      <a class="block clear-both w-full px-4 py-2 font-normal bg-transparent border-0 rounded-lg hover:text-slate-700 hover:bg-gray-200 text-slate-500 text-align-inherit whitespace-nowrap lg:transition-colors lg:duration-300 lg:ease" href="https://www.creative-tim.com/learning-lab/tailwind/html/what-is-tailwind-css/argon-dashboard/">
+                        <div class="flex">
+                          <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                            <i class="mr-4 text-blue-500 ni ni-planet"></i>
+                          </div>
+                          <div>
+                            <h6 class="flex p-0 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">Getting Started</h6>
+                            <span class="text-sm leading-normal">All about overview, quick start, license and contents</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="relative block p-0 bg-white border-0">
+                      <a class="block clear-both w-full px-4 py-2 font-normal bg-transparent border-0 rounded-lg hover:text-slate-700 hover:bg-gray-200 text-slate-500 text-align-inherit whitespace-nowrap lg:transition-colors lg:duration-300 lg:ease" href="https://www.creative-tim.com/learning-lab/tailwind/html/colors/argon-dashboard/">
+                        <div class="flex">
+                          <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                            <i class="text-blue-500 ni ni-single-copy-04"></i>
+                          </div>
+                          <div>
+                            <h6 class="flex p-0 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">Foundation</h6>
+                            <span class="text-sm leading-normal">See our colors, icons and typography</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="relative block p-0 bg-white border-0">
+                      <a class="block clear-both w-full px-4 py-2 font-normal bg-transparent border-0 rounded-lg hover:text-slate-700 hover:bg-gray-200 text-slate-500 text-align-inherit whitespace-nowrap lg:transition-colors lg:duration-300 lg:ease" href="https://www.creative-tim.com/learning-lab/tailwind/html/alert/argon-dashboard/">
+                        <div class="flex">
+                          <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                            <i class="text-blue-500 ni ni-app"></i>
+                          </div>
+                          <div>
+                            <h6 class="flex p-0 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">Components</h6>
+                            <span class="text-sm leading-normal">Explore our collection of fully designed components</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="relative block p-0 bg-white border-0">
+                      <a class="block clear-both w-full px-4 py-2 font-normal bg-transparent border-0 rounded-lg hover:text-slate-700 hover:bg-gray-200 text-slate-500 text-align-inherit whitespace-nowrap lg:transition-colors lg:duration-300 lg:ease" href="https://www.creative-tim.com/learning-lab/tailwind/html/charts/argon-dashboard/">
+                        <div class="flex">
+                          <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                            <i class="text-blue-500 ni ni-chart-bar-32"></i>
+                          </div>
+                          <div>
+                            <h6 class="flex p-0 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">Plugins</h6>
+                            <span class="text-sm leading-normal">Check how you can integrate our plugins</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                     
+                  </ul>
+                </div>
+
+
+                <div class="flex flex-wrap -mx-3 lg:hidden">
+                  <div class="w-full max-w-full p-0 shrink-0 md:flex-0 md:w-full">
+                    <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg" href="https://www.creative-tim.com/learning-lab/tailwind/html/what-is-tailwind-css/argon-dashboard/">
+                      <div class="flex">
+                        <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                          <i class="text-blue-500 ni ni-planet"></i>
+                        </div>
+                        <div>
+                          <h6 class="flex p-0 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">Getting Started</h6>
+                          <span class="text-sm leading-normal">All about overview, quick start, license and contents</span>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg" href="https://www.creative-tim.com/learning-lab/tailwind/html/colors/argon-dashboard/">
+                      <div class="flex">
+                        <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                          <i class="text-blue-500 ni ni-single-copy-04"></i>
+                        </div>
+                        <div>
+                          <h6 class="flex p-0 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">Foundation</h6>
+                          <span class="text-sm leading-normal">See our colors, icons and typography</span>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg" href="https://www.creative-tim.com/learning-lab/tailwind/html/alert/argon-dashboard/">
+                      <div class="flex">
+                        <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                          <i class="text-blue-500 ni ni-app"></i>
+                        </div>
+                        <div>
+                          <h6 class="flex p-0 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">Components</h6>
+                          <span class="text-sm leading-normal">Explore our collection of fully designed components</span>
+                        </div>
+                      </div>
+                    </a>
+                    <a class="hover:text-slate-700 hover:bg-gray-200 block w-full px-4 py-1.2 clear-both font-normal text-slate-500 text-align-inherit whitespace-nowrap bg-transparent border-0 lg:transition-colors lg:duration-300 lg:ease rounded-lg" href="https://www.creative-tim.com/learning-lab/tailwind/html/charts/argon-dashboard/">
+                      <div class="flex">
+                        <div class="flex w-4 h-4 mt-1 mr-4 text-black fill-current stroke-none">
+                          <i class="text-blue-500 ni ni-chart-bar-32"></i>
+                        </div>
+                        <div>
+                          <h6 class="flex p-0 mb-0 text-sm font-bold whitespace-nowrap text-slate-700">Plugins</h6>
+                          <span class="text-sm leading-normal">Check how you can integrate our plugins</span>
+                        </div>
+                      </div>
+                    </a>
+                     
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="hidden pl-0 mb-0 list-none lg:block lg:flex-row">
+            <li>
+              <a href="https://www.creative-tim.com/product/argon-dashboard-pro-tailwind" target="_blank" class="inline-block px-8 py-2 mb-0 mr-1 text-xs font-bold leading-normal text-center text-black align-middle transition-all ease-in bg-white border-0 rounded-lg shadow-md cursor-pointer hover:-translate-y-px active:-translate-y-px tracking-tight-rem bg-150 bg-x-25">Buy Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="mt-0 transition-all duration-200 ease-in-out">
+      <div class="pb-56 pt-12 m-4 min-h-50-screen items-start rounded-xl p-0 relative overflow-hidden flex bg-cover bg-top bg-[url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-cover.jpg')]">
+        <span class="absolute top-0 left-0 w-full h-full bg-center bg-cover opacity-60 bg-gradient-to-tl from-zinc-800 to-zinc-700"></span>
+        <div class="container z-1">
+          <div class="flex flex-wrap justify-center -mx-3">
+            <div class="w-full max-w-full px-3 mx-auto text-center shrink-0 lg:flex-0 lg:w-5/12">
+              <h1 class="mt-12 mb-2 text-white">Welcome!</h1>
+              <p class="text-white ">Use these awesome forms to login or create new account in your project for free.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="flex flex-wrap justify-center -mx-3 -mt-48 lg:-mt-48 md:-mt-56">
+          <div class="w-full max-w-full px-6 mx-auto shrink-0 md:flex-0 md:w-7/12 lg:w-5/12 xl:w-4/12">
+            <div class="relative z-0 flex flex-col min-w-0 break-words bg-white border-0 shadow-xl lg:pb-4 dark:bg-slate-850 dark:shadow-dark-xl rounded-2xl bg-clip-border">
+              <div class="text-center border-black/12.5 rounded-t-2xl border-b-0 border-solid p-6">
+                <h5>Register with</h5>
+              </div>
+              <div class="flex flex-wrap px-4 -mx-3 sm:px-6 xl:px-12">
+                <div class="w-3/12 max-w-full px-1 ml-auto flex-0">
+                  <a class="inline-block w-full px-6 py-3 mb-4 text-xs font-bold text-center text-gray-200 uppercase align-middle transition-all ease-in bg-transparent border border-gray-200 border-solid rounded-lg shadow-none cursor-pointer hover:-translate-y-px active:-translate-y-px active:hover:bg-transparent active:hover:text-gray-200 active:bg-gray-200 active:shadow-xs active:hover:shadow-none leading-pro tracking-tight-rem bg-150 bg-x-25 hover:bg-transparent hover:opacity-75" href="javascript:;">
+                    <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink32">
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(3.000000, 3.000000)" fill-rule="nonzero">
+                          <circle fill="#3C5A9A" cx="29.5091719" cy="29.4927506" r="29.4882047"></circle>
+                          <path d="M39.0974944,9.05587273 L32.5651312,9.05587273 C28.6886088,9.05587273 24.3768224,10.6862851 24.3768224,16.3054653 C24.395747,18.2634019 24.3768224,20.1385313 24.3768224,22.2488655 L19.8922122,22.2488655 L19.8922122,29.3852113 L24.5156022,29.3852113 L24.5156022,49.9295284 L33.0113092,49.9295284 L33.0113092,29.2496356 L38.6187742,29.2496356 L39.1261316,22.2288395 L32.8649196,22.2288395 C32.8649196,22.2288395 32.8789377,19.1056932 32.8649196,18.1987181 C32.8649196,15.9781412 35.1755132,16.1053059 35.3144932,16.1053059 C36.4140178,16.1053059 38.5518876,16.1085101 39.1006986,16.1053059 L39.1006986,9.05587273 L39.0974944,9.05587273 L39.0974944,9.05587273 Z" fill="#FFFFFF"></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+                <div class="w-3/12 max-w-full px-1 flex-0">
+                  <a class="inline-block w-full px-6 py-3 mb-4 text-xs font-bold text-center text-gray-200 uppercase align-middle transition-all ease-in bg-transparent border border-gray-200 border-solid rounded-lg shadow-none cursor-pointer hover:-translate-y-px active:-translate-y-px active:hover:bg-transparent active:hover:text-gray-200 active:bg-gray-200 active:shadow-xs active:hover:shadow-none leading-pro tracking-tight-rem bg-150 bg-x-25 hover:bg-transparent hover:opacity-75" href="javascript:;">
+                    <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(7.000000, 0.564551)" fill="#000000" fill-rule="nonzero">
+                          <path
+                            d="M40.9233048,32.8428307 C41.0078713,42.0741676 48.9124247,45.146088 49,45.1851909 C48.9331634,45.4017274 47.7369821,49.5628653 44.835501,53.8610269 C42.3271952,57.5771105 39.7241148,61.2793611 35.6233362,61.356042 C31.5939073,61.431307 30.2982233,58.9340578 25.6914424,58.9340578 C21.0860585,58.9340578 19.6464932,61.27947 15.8321878,61.4314159 C11.8738936,61.5833617 8.85958554,57.4131833 6.33064852,53.7107148 C1.16284874,46.1373849 -2.78641926,32.3103122 2.51645059,22.9768066 C5.15080028,18.3417501 9.85858819,15.4066355 14.9684701,15.3313705 C18.8554146,15.2562145 22.5241194,17.9820905 24.9003639,17.9820905 C27.275104,17.9820905 31.733383,14.7039812 36.4203248,15.1854154 C38.3824403,15.2681959 43.8902255,15.9888223 47.4267616,21.2362369 C47.1417927,21.4153043 40.8549638,25.1251794 40.9233048,32.8428307 M33.3504628,10.1750144 C35.4519466,7.59650964 36.8663676,4.00699306 36.4804992,0.435448578 C33.4513624,0.558856931 29.7884601,2.48154382 27.6157341,5.05863265 C25.6685547,7.34076135 23.9632549,10.9934525 24.4233742,14.4943068 C27.7996959,14.7590956 31.2488715,12.7551531 33.3504628,10.1750144"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+                <div class="w-3/12 max-w-full px-1 mr-auto flex-0">
+                  <a class="inline-block w-full px-6 py-3 mb-4 text-xs font-bold text-center text-gray-200 uppercase align-middle transition-all ease-in bg-transparent border border-gray-200 border-solid rounded-lg shadow-none cursor-pointer hover:-translate-y-px active:-translate-y-px active:hover:bg-transparent active:hover:text-gray-200 active:bg-gray-200 active:shadow-xs active:hover:shadow-none leading-pro tracking-tight-rem bg-150 bg-x-25 hover:bg-transparent hover:opacity-75" href="javascript:;">
+                    <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g transform="translate(3.000000, 2.000000)" fill-rule="nonzero">
+                          <path d="M57.8123233,30.1515267 C57.8123233,27.7263183 57.6155321,25.9565533 57.1896408,24.1212666 L29.4960833,24.1212666 L29.4960833,35.0674653 L45.7515771,35.0674653 C45.4239683,37.7877475 43.6542033,41.8844383 39.7213169,44.6372555 L39.6661883,45.0037254 L48.4223791,51.7870338 L49.0290201,51.8475849 C54.6004021,46.7020943 57.8123233,39.1313952 57.8123233,30.1515267" fill="#4285F4"></path>
+                          <path d="M29.4960833,58.9921667 C37.4599129,58.9921667 44.1456164,56.3701671 49.0290201,51.8475849 L39.7213169,44.6372555 C37.2305867,46.3742596 33.887622,47.5868638 29.4960833,47.5868638 C21.6960582,47.5868638 15.0758763,42.4415991 12.7159637,35.3297782 L12.3700541,35.3591501 L3.26524241,42.4054492 L3.14617358,42.736447 C7.9965904,52.3717589 17.959737,58.9921667 29.4960833,58.9921667" fill="#34A853"></path>
+                          <path d="M12.7159637,35.3297782 C12.0932812,33.4944915 11.7329116,31.5279353 11.7329116,29.4960833 C11.7329116,27.4640054 12.0932812,25.4976752 12.6832029,23.6623884 L12.6667095,23.2715173 L3.44779955,16.1120237 L3.14617358,16.2554937 C1.14708246,20.2539019 0,24.7439491 0,29.4960833 C0,34.2482175 1.14708246,38.7380388 3.14617358,42.736447 L12.7159637,35.3297782" fill="#FBBC05"></path>
+                          <path d="M29.4960833,11.4050769 C35.0347044,11.4050769 38.7707997,13.7975244 40.9011602,15.7968415 L49.2255853,7.66898166 C44.1130815,2.91684746 37.4599129,0 29.4960833,0 C17.959737,0 7.9965904,6.62018183 3.14617358,16.2554937 L12.6832029,23.6623884 C15.0758763,16.5505675 21.6960582,11.4050769 29.4960833,11.4050769" fill="#EB4335"></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+                <div class="relative w-full max-w-full px-3 mt-2 text-center shrink-0">
+                  <p class="inline mb-2 px-4 text-slate-400 bg-white z-2 text-sm leading-normal font-semibold before:bg-gradient-to-r before:from-transparent before:via-neutral-500/40 before:to-neutral-500/40 before:right-2 before:-ml-1/2 before:content-[''] before:inline-block before:w-3/10 before:h-px before:relative before:align-middle after:left-2 after:-mr-1/2 after:bg-gradient-to-r after:from-neutral-500/40 after:via-neutral-500/40 after:to-transparent after:content-[''] after:inline-block after:w-3/10 after:h-px after:relative after:align-middle">or</p>
+                </div>
+              </div>
+              <div class="flex-auto p-6 text-center">
+                <form role="form text-left">
+                  <div class="mb-4">
+                    <input type="text" class="text-sm placeholder:text-gray-500 focus:shadow-primary-outline dark:bg-slate-850 dark:placeholder:text-white/80 dark:text-white/80 leading-5.6 ease block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-blue-500 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow" placeholder="Name" aria-label="Name" aria-describedby="email-addon" />
+                  </div>
+                  <div class="mb-4">
+                    <input type="email" class="text-sm placeholder:text-gray-500 focus:shadow-primary-outline dark:bg-slate-850 dark:placeholder:text-white/80 dark:text-white/80 leading-5.6 ease block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-blue-500 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow" placeholder="Email" aria-label="Email" aria-describedby="email-addon" />
+                  </div>
+                  <div class="mb-4">
+                    <input type="password" class="text-sm placeholder:text-gray-500 focus:shadow-primary-outline dark:bg-slate-850 dark:placeholder:text-white/80 dark:text-white/80 leading-5.6 ease block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-blue-500 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow" placeholder="Password" aria-label="Password" aria-describedby="password-addon" />
+                  </div>
+                  <div class="min-h-6 pl-7 mb-0.5 block">
+                    <input id="terms" class="w-5 h-5 ease -ml-7 rounded-1.4 checked:bg-gradient-to-tl checked:from-blue-500 checked:to-violet-500 after:text-xxs after:font-awesome after:duration-250 after:ease-in-out duration-250 relative float-left mt-1 cursor-pointer appearance-none border border-solid border-slate-200 bg-white bg-contain bg-center bg-no-repeat align-top transition-all after:absolute after:flex after:h-full after:w-full after:items-center after:justify-center after:text-white after:opacity-0 after:transition-all after:content-['\f00c'] checked:border-0 checked:border-transparent checked:bg-transparent checked:after:opacity-100" type="checkbox" value="" checked />
+                    <label class="mb-2 text-sm font-normal text-left cursor-pointer select-none -ml-30 text-slate-700" for="terms"> I agree the <a href="javascript:;" class="font-bold text-slate-700">Terms and Conditions</a> </label>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="inline-block w-full px-5 py-2.5 mt-6 mb-2 text-sm font-bold text-center text-white align-middle transition-all ease-in bg-transparent border-0 rounded-lg shadow-md cursor-pointer active:opacity-85 hover:-translate-y-px hover:shadow-xs leading-normal tracking-tight-rem bg-150 bg-x-25 bg-gradient-to-tl from-zinc-800 to-zinc-700 hover:border-slate-700 hover:bg-slate-700 hover:text-white">Sign up</button>
+                  </div>
+                  <p class="mt-4 mb-0 text-sm leading-normal">Already have an account? <a href="../../../pages/authentication/signin/illustration.html" class="font-bold text-slate-700">Sign in</a></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="py-12">
+      <div class="container">
+        <div class="flex flex-wrap -mx-3">
+          <div class="w-full max-w-full px-3 mx-auto mb-6 text-center shrink-0 lg:flex-0 lg:w-8/12">
+            <a href="javascript:;" target="_blank" class="mb-2 mr-4 text-slate-400 sm:mb-0 xl:mr-12">Company</a>
+            <a href="javascript:;" target="_blank" class="mb-2 mr-4 text-slate-400 sm:mb-0 xl:mr-12">About Us</a>
+            <a href="javascript:;" target="_blank" class="mb-2 mr-4 text-slate-400 sm:mb-0 xl:mr-12">Team</a>
+            <a href="javascript:;" target="_blank" class="mb-2 mr-4 text-slate-400 sm:mb-0 xl:mr-12">Products</a>
+            <a href="javascript:;" target="_blank" class="mb-2 mr-4 text-slate-400 sm:mb-0 xl:mr-12">Blog</a>
+            <a href="javascript:;" target="_blank" class="mb-2 mr-4 text-slate-400 sm:mb-0 xl:mr-12">Pricing</a>
+          </div>
+          <div class="w-full max-w-full px-3 mx-auto mt-2 mb-6 text-center shrink-0 lg:flex-0 lg:w-8/12">
+            <a href="javascript:;" class="mr-6 text-slate-400">
+              <span class="text-lg fab fa-dribbble" aria-hidden="true"></span>
+            </a>
+            <a href="javascript:;" class="mr-6 text-slate-400">
+              <span class="text-lg fab fa-twitter" aria-hidden="true"></span>
+            </a>
+            <a href="javascript:;" class="mr-6 text-slate-400">
+              <span class="text-lg fab fa-instagram" aria-hidden="true"></span>
+            </a>
+            <a href="javascript:;" class="mr-6 text-slate-400">
+              <span class="text-lg fab fa-pinterest" aria-hidden="true"></span>
+            </a>
+            <a href="javascript:;" class="mr-6 text-slate-400">
+              <span class="text-lg fab fa-github" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3">
+          <div class="w-8/12 max-w-full px-3 mx-auto mt-1 text-center flex-0">
+            <p class="mb-0 text-slate-400">
+              Copyright ©
+              <script>document.write(new Date().getFullYear())</script>
+              Argon by Creative Tim.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="../../../assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <!-- main script file  -->
+  <script src="../../../assets/js/argon-dashboard-pro-tailwind.js?v=1.0.0"></script>
+</html>
