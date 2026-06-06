@@ -1830,22 +1830,22 @@
     background-image: radial-gradient(circle at bottom right, #3c9add, #191452);
   }
   .bg-\[url\(\'\.\.\/\.\.\/\.\.\/assets\/img\/curved-images\/curved8\.jpg\'\)\] {
-    background-image: url('../../../assets/img/curved-images/curved8.jpg');
+    background-image: url('/img/curved-images/curved8.jpg');
   }
   .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/illustrations\/404\.svg\'\)\] {
-    background-image: url('../../assets/img/illustrations/404.svg');
+    background-image: url('/img/illustrations/404.svg');
   }
   .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/img-1-1200x1000\.jpg\'\)\] {
-    background-image: url('../../assets/img/img-1-1200x1000.jpg');
+    background-image: url('/img/img-1-1200x1000.jpg');
   }
   .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/ivancik\.jpg\'\)\] {
-    background-image: url('../../assets/img/ivancik.jpg');
+    background-image: url('/img/ivancik.jpg');
   }
   .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/pricing-header-bg\.jpg\'\)\] {
-    background-image: url('../../assets/img/pricing-header-bg.jpg');
+    background-image: url('/img/pricing-header-bg.jpg');
   }
   .bg-\[url\(\'\.\.\/img\/vr-bg\.jpg\'\)\] {
-    background-image: url('../img/vr-bg.jpg');
+    background-image: url('/img/vr-bg.jpg');
   }
   .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1633886036701-c25cbd528ee0\?ixlib\=rb-1\.2\.1\&ixid\=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto\=format\&fit\=crop\&w\=500\&q\=80\'\)\] {
     background-image: url('https://images.unsplash.com/photo-1633886036701-c25cbd528ee0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80');

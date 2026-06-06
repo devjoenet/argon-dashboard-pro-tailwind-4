@@ -2049,7 +2049,7 @@ h6 {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/ivancik\.jpg\'\)\] {
-  background-image: url('../../assets/img/ivancik.jpg');
+  background-image: url('/img/ivancik.jpg');
 }
 .bg-\[radial-gradient\(circle_at_bottom_right\2c \#3c9add\2c \#191452\)\] {
   background-image: radial-gradient(circle at bottom right, #3c9add, #191452);
@@ -2076,7 +2076,7 @@ h6 {
   background-image: url('https://images.unsplash.com/photo-1635944095210-23114a1fb7c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1335&q=80');
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/pricing-header-bg\.jpg\'\)\] {
-  background-image: url('../../assets/img/pricing-header-bg.jpg');
+  background-image: url('/img/pricing-header-bg.jpg');
 }
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1635656508650-e18aa07cdd13\?ixid\=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&ixlib\=rb-1\.2\.1\&auto\=format\&fit\=crop\&w\=500\&q\=80\'\)\] {
   background-image: url('https://images.unsplash.com/photo-1635656508650-e18aa07cdd13?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');
@@ -2091,7 +2091,7 @@ h6 {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/card-music.jpg');
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/illustrations\/404\.svg\'\)\] {
-  background-image: url('../../assets/img/illustrations/404.svg');
+  background-image: url('/img/illustrations/404.svg');
 }
 .bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/error-500\.jpg\'\)\] {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/error-500.jpg');
@@ -2127,7 +2127,7 @@ h6 {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-basic.jpg');
 }
 .bg-\[url\(\'\.\.\/\.\.\/\.\.\/assets\/img\/curved-images\/curved8\.jpg\'\)\] {
-  background-image: url('../../../assets/img/curved-images/curved8.jpg');
+  background-image: url('/img/curved-images/curved8.jpg');
 }
 .bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/signup-cover\.jpg\'\)\] {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-cover.jpg');
@@ -2145,10 +2145,10 @@ h6 {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/verification-ill.jpg');
 }
 .bg-\[url\(\'\.\.\/img\/vr-bg\.jpg\'\)\] {
-  background-image: url('../img/vr-bg.jpg');
+  background-image: url('/img/vr-bg.jpg');
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/img-1-1200x1000\.jpg\'\)\] {
-  background-image: url('../../assets/img/img-1-1200x1000.jpg');
+  background-image: url('/img/img-1-1200x1000.jpg');
 }
 .bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/creativetimofficial\/public-assets\/master\/argon-dashboard-pro\/assets\/img\/reports1\.jpg\'\)\] {
   background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/reports1.jpg');
