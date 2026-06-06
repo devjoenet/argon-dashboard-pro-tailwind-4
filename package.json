@@ -1,16 +1,23 @@
 {
     "name": "argon-dashboard-pro-tailwind",
     "version": "1.0.0",
-    "description": "",
+    "type": "module",
+    "description": "Tailwind v4 Upgraded with Vite",
     "scripts": {
-        "build": "npx @tailwindcss/cli -i src/styles.css -o build/assets/css/argon-dashboard-tailwind.css"
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "format": "prettier --write \"**/*.{html,js,css}\""
     },
     "devDependencies": {
-        "@tailwindcss/cli": "^4.0.0",
-        "tailwindcss": "^4.0.0"
+        "@tailwindcss/vite": "^4.0.0",
+        "prettier": "^3.8.3",
+        "prettier-plugin-tailwindcss": "^0.6.0",
+        "prettier-plugin-tailwindcss-canonical-classes": "^0.1.5",
+        "tailwindcss": "^4.3.0",
+        "vite": "^5.0.0"
     },
     "dependencies": {
-        "cli": "^1.0.1",
         "highlight.js": "^11.4.0"
     }
 }
