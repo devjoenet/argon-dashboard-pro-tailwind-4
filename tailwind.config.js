@@ -1011,7 +1011,7 @@ module.exports = {
       max: "max-content",
       fit: "fit-content",
       prose: "65ch",
-      ...breakpoints(theme("screens")),
+      ...theme("screens"),
     }),
     minHeight: ({ theme }) => ({
       auto: "auto",
